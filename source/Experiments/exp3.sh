@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ssh raven "screen -d -m -L -Logfile exp2masternode -S masternode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/MasterNode/main; exit;"
+ssh owl "screen -d -m -S datanode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/DataNode/main 130.58.68.232; exit;"
+ssh loon "screen -d -m -S datanode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/DataNode/main 130.58.68.232; exit;"
+ssh swan "screen -d -m -S datanode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/DataNode/main 130.58.68.232; exit;"
+ssh dodo "screen -d -m -S datanode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/DataNode/main 130.58.68.232; exit;"
+ssh seagull "screen -d -m -S clientnode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/ClientNode/main 130.58.68.232; exit;"
+ssh pigeon "screen -d -m -S clientnode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/ClientNode/main 130.58.68.232; exit;"
+ssh parrot "screen -d -m -S clientnode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/ClientNode/main 130.58.68.232; exit;"
+ssh pelican "screen -d -m -S clientnode ./cs87/final/Project-fjohnst1-koh2-srothst1/source/ClientNode/main 130.58.68.232; exit;"
+ssh seagull "screen -d -m -L -Logfile exp3-1output ./cs87/final/Project-fjohnst1-koh2-srothst1/source/Experiments/exp3-1 130.58.68.234; exit;"
+ssh pigeon "screen -d -m -L -Logfile exp3-2output ./cs87/final/Project-fjohnst1-koh2-srothst1/source/Experiments/exp3-2 130.58.68.229; exit;"
+ssh parrot "screen -d -m -L -Logfile exp3-3output ./cs87/final/Project-fjohnst1-koh2-srothst1/source/Experiments/exp3-3 130.58.68.227; exit;"
+ssh pelican "screen -d -m -L -Logfile exp3-4output ./cs87/final/Project-fjohnst1-koh2-srothst1/source/Experiments/exp3-4 130.58.68.228; exit;"

@@ -1,0 +1,70 @@
+We have implemented a deduplicated distributed file system with four basic functions:
+open, close, read, and write.
+
+There are 5 major components of our source code:
+
+MasterNode: It is the node that stores all file system metadata in memory.
+
+DataNode: Stores and retrieves blocks of data upon request.
+
+ClientNode: The process/daemon that provides an interface to multiple client
+processes executing on the same machine and coordinates instructions and communications
+between the client programs, and the rest of the file system
+
+ClientProg: Library that provides API to any client program to access the file system.
+
+Experiments: Programs and scripts for running the experiments
+
+There is a single Makefile in src directory that builds the entire system, including
+all the experiments we conducted. Additionally, there is a Makefile under each directory
+that could be used to build different component of the system. There is no longer a sample
+application program in ClientProg, but you could either build and run experimental application
+or build and run your own application that includes FileObject in the ClientProg directory.
+After writing any file, file blocks will be stored in local disk of the data node under
+/local/dfs, so it’s important to remove any data after writing into the system
+(or run clean.sh to remove it). There are scripts written to run the experiments,
+and clean up afterwards on specific lab machines, but they use full pathnames that
+are most likely different from yours to execute the experiment programs, so you may
+not be able to run scripts to run the experiments. But if you could run the scripts:
+
+ssh-agent bash
+ssh-add
+./exp1.sh (or exp2.sh or exp3.sh)
+
+Wait for at least 2 minutes for the program to finish executing (or you could also
+check output files to see if the read and write times have been written). clean.sh
+terminates all programs, except for MasterNode and remove all data blocks written
+by DataNode. You must manually terminate MasterNode executed on raven:
+
+./clean.sh
+ssh raven
+screen -r
+quit
+exit
+
+If you are not able to run scripts, you may try running one experiment manually on
+1 data node, 1 client node, and 1 master node. MasterNode must execute on machine
+different all other components of the system and ClientNode and Experiment program
+must be executed on the same machine. DataNode can be executed on the same or different
+machine as ClientNode. After make in src, in order, enter:
+
+In MasterNode: ./main
+In DataNode: ./main IP address of MasterNode
+In ClientNode: ./main IP address of MasterNode
+In Experiments: ./exp1-1 IP address of ClientNode
+
+The system follows a client-server model, so each component of the system will be
+waiting for connection and will not terminate after the experiment program terminates.
+You need to enter commands manually to gracefully terminate each component of the system
+(so there is no significant memory leak). After at least exp1-1 finishes execution,
+in order, enter
+
+In ClientNode: quit
+In DataNode: quit
+In MasterNode; quit
+
+Then, in the machine you executed data node, remove /local/dfs which store the data
+blocks that have been written.
+
+There is a confg.h file in src in which you could change the block size. But you
+must rebuild the entire system after modifying anything in config.h file.
