@@ -1,0 +1,125 @@
+% this is an example bibtex file, there are different types of entries
+% each with different format requirements
+% the most commonly used are book, inproceedings, article, and misc 
+% annotate is used to add comments about the work to the .bib file
+% entries (its contents will not show up in the References section) 
+% see http://www.bibtex.org/ for lots more information
+
+
+% not every field of each style of entry is required, but author, title,
+% year, and some specification of how it is published is required for
+% most formats  (I could remove month here, for example)
+% anything I put in { } will be translated as is (this is how I can
+% force capitaliziation), anything in "" will be capitalize based on
+% the whim of bibtex
+
+
+@article{Overview ,
+author = {Ravneet Kaur et al},
+title = {Data deduplication techniques for efficient cloud storage management: a systematic review},
+journal = {The Journal of Supercomputing},
+volume = {74},
+year = {2018},
+pages = {2035--2085},
+annote =  "
+	   An overview article about deduplication
+	"
+}
+
+@INPROCEEDINGS{GFS, 
+  author = {Sanjay Ghemawat et al},
+  title = {{The Google File System}},
+  booktitle = {ACM symposium on Operating systems principles}, 
+  year = 2003,
+  annote =  "
+	  Paper about Google file system
+	"
+}
+
+@INPROCEEDINGS{HDFS, 
+  author = "Konstantin Shvachko et al",
+  title = {{The Hadoop Distributed File System}},
+  booktitle = "{IEEE MSST}", 
+  year = 2010,
+  annote =  "
+	  Overview of HDFS system 
+	"
+}
+
+@INPROCEEDINGS{HDFSDe, 
+  author = {Dongzhan Zhang et al},
+  title = {{Data Deduplication Based on Hadoop}},
+  booktitle = "{IEEE CBD}", 
+  year = 2017,
+  annote =  "
+	  Deduplication on HDFS
+	"
+}
+
+@INPROCEEDINGS{Droplet, 
+  author = {Yang Zhang et al},
+  title = {{Droplet: A distributed solution of data deduplication}},
+  booktitle = "{IEEE ICGC}", 
+  year = 2012,
+  annote =  "
+	  Droplet, a deduplication on distributed system
+	"
+}
+
+@INPROCEEDINGS{Sparse, 
+  author = "Mark Lillibridge et al",
+  title = {{Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality}}, 
+  booktitle = "{FAST}",
+  year = 2009,
+  annote =  "
+	  sparse indexing technique 
+	"
+}
+
+@INPROCEEDINGS{Bloom, 
+  author = {Shrayasi Podder et al},
+  title = {A bloom filter-based data deduplication for big data},
+  booktitle = {Advances in Data and Information Sciences}, 
+  year = 2018,
+  annote =  "
+	  Bloom filter technique with syntax and semantic analysis
+	"
+}
+
+@ARTICLE {microsoft,
+        author = {Meyer Dutch and William Bolosky},
+        title = {{A study of practical deduplication}},
+        journal = {{ACM Transactions on Storage}},
+        volume = {7},
+        year = {2012},
+        pages = {1--20},
+        annote =  "
+	   Study that performed and evaluated deduplication at Microsoft.
+	"
+}
+
+@INPROCEEDINGS{Dedu, 
+  author = {Zhe Sun et al},
+  title = {{DeDu: Building a deduplication storage system over cloud computing}},
+  booktitle = "{IEEE CSCWD}", 
+  year = 2011,
+  annote =  "
+	  Dedu, deduplication on HDFS
+	"
+}
+
+@ARTICLE {dutch:deduplicationratio,
+        author = {Mike Dutch},
+        title = {{}Understanding data deduplication ratios}},
+        year = 2009,
+        month = June,
+        annote =  "
+	   A data deduplication ratio over a particular time period
+	   is the number of bytes input to a data deduplication
+	   process divided by the number of bytes output.  The space
+	   reduction ratio relevant in most customer situations which
+	   reflects all of the complementary capacity optimization
+	   technologies actually used.
+	"
+}
+

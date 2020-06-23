@@ -1,0 +1,124 @@
+Final Report Project, CS87 Spring 2020
+
+Overall
+=======
+
+A very impressive project!  
+
+The report includes good coverage.  However, it is a bit difficult to read in
+spots.  Adding more figures to help explain, and some re-organization may help.  
+Add more figure to your presentation.
+
+There are future directions for your work that look interesting. 
+
+
+Details
+=======
+----------------
+1. Does the abstract summarize the problem, the solution, and
+   summarize experimental questions and results?
+----------------
+
+yes
+
+* the what and results well stated
+* briefly define/say what dedupication is
+* you motivation sentence could be clearer: it is a bit confusing
+  (it is much clearer in your intro)
+
+
+----------------
+2. Does the paper introduce the key issues, the key ideas of
+  the solution or breadth and depth of topic, the goals of the project, discuss
+  related work and use proper citation?
+----------------
+
+
+intro is good, but could be expanded with a bit more detail and 
+explaination of what you mean by deduplication and why you expect
+it to perform well (what are the big outcomes that you expect from
+such a DFS?)
+
+related coverage is good, but the organization is hard to follow, and
+some information for understanding is missing
+
+minor comments:
+
+* Explain why for this: "traditional deduplication methods that rely solely 
+ on the unique hash value of a file or data block are susceptible to data 
+ corruption due to hash collision." 
+* it is not that you are designing a new deduplicated DFS, it is that you
+  are designing a new DFS with deduplication support.
+* use present tense
+* start related with (or before related cover) chunk-based deduplication (you 
+  compare other work to it, but it isn't described)
+* Say what HBase is
+
+
+
+----------------
+3. Does the paper clearly present the parallel or distributed 
+  solution or system?  Are figures effectively used to help describe this?
+4. Is the system/solution well explained.
+----------------
+
+There is a lot good in here.  At a high-level the topic coverage is complete.
+However, some parts could use a bit more explaination to help the reader
+understand how your system works.   I actually wonder if just some 
+reorganization would help with this.  
+
+Figures of your system (like Figure 2 should come earlier), and a figure
+that illustrates how your deduplication works with an example  would be
+very good to add (this is your big idea!).  The R&W operations in 4. could 
+use an additional figure.
+
+* 3.1: Add a figure of your system! (like figure 2 earlier)  
+* 3.1 describe your opertions a bit more: are R and W only sequential R and W 
+  of whole (or part) of file?  Is W once or append or ...? 
+  You go into detail in 4. but a bit more is needed when first introduce.
+* to figure 1 (which is good) add a bit more description in the prose and
+  caption about what it is showing, label each part as the BlockMap and
+  the GroupMap
+* 3.5: this is the key part of your system.  Even more explaination and 
+  a figure of who is doing what part would be good here (trace through the
+  details of how your system does a block W for a duplicate and 
+  for a non-duplicate block). 
+* 4: the details about the operations are good.  A figure would be nice
+  for W and R, which are the most interesting for your system
+  (W in particular).
+
+minor comments:
+
+* "Files are organized into directories to increase access time" ?
+* there is a bit of klunky writing in here that makes some parts hard to follow
+
+--------------
+5. Are the experiments clearly described, well designed, and the 
+  results clearly presented?  Are the significance of the results discussed 
+  and analyzed?  
+----------------
+
+Nice results.  They are a bit hard to follow.  If you use descriptive names 
+for the experiments, and short reminders in prose as you discuss them, this 
+will help a great deal (the reader forgets what the first, second, and 
+third experiments are).  It will also help in your explaination of the results 
+and what they show.  
+
+* table 1 caption: say what the ratio is: of what to what?
+* In graphs use descriptive names for and labels (vs. exp X) for the 
+  three experiements.  
+
+----------------
+6. Is there a complete conclusion?  Are future directions to this
+  work presented/discussed?
+----------------
+
+yes
+
+----------------
+7. Does the scope of the project and the completed report represent 
+   a half semester worth of work?
+----------------
+
+yes.  definitely.  nice project!
+
