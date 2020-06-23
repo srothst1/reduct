@@ -1,2 +1,15 @@
-# reduct
-We designed, implemented, and tested Reduct, a deduplicated distributed file system. Our motivation for designing a new system stemmed from an observation of numerous shortcomings in the existing distributed file systems, including excessive metadata and the possibility of data corruption due to hash collisions. Our solution is closely modeled after widely used distributed file systems such as the Google File System and HDFS (Hadoop Distributed File System), yet internally supports subfile level deduplication in a way that avoids the aforementioned issues.   Several experiments were conducted to test the performance of Reduct in terms of deduplication ratio, read, and write speeds. The primary focus was to measure not only the effectiveness of deduplication, but also its impact on the throughput of the system. Our experimental results were positive, despite the various limitations of the project due to time constraint. Future research would require implementing and testing a full-scale system that is far more reliable and efficient. 
+CS87 Course project repo 
+
+I've added four subdirectories for you, three are for reports related to your 
+project, and a fourth for project source.  You should not remove these
+four subdirectories, but you should feel free to add additional content 
+to this repo (more directories, etc.) as you find useful for your project.
+
+The document starting points are organized for the original project.
+The remote class versions of project reports will differ some.
+
+ProjectProposal/  
+MidwayReport/  
+FinalReport/  
+source/
+
