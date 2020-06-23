@@ -1,0 +1,170 @@
+Exp1
+
+foo2 write time in milliseconds : 51126 ms
+foo2 read time in milliseconds : 26495 ms
+foo2 write time in milliseconds : 51134 ms
+foo2 read time in milliseconds : 26347 ms
+foo2 write time in milliseconds : 51662 ms
+foo2 read time in milliseconds : 26520 ms
+foo2 write time in milliseconds : 51772 ms
+foo2 read time in milliseconds : 26583 ms
+foo2 write time in milliseconds : 51627 ms
+foo2 read time in milliseconds : 26503 ms
+
+foo2 write time in milliseconds : 28530 ms
+foo2 read time in milliseconds : 14848 ms
+foo2 write time in milliseconds : 28498 ms
+foo2 read time in milliseconds : 14876 ms
+foo2 write time in milliseconds : 28357 ms
+foo2 read time in milliseconds : 14912 ms
+foo2 write time in milliseconds : 28493 ms
+foo2 read time in milliseconds : 14820 ms
+foo2 write time in milliseconds : 28391 ms
+foo2 read time in milliseconds : 14768 ms
+
+foo2 write time in milliseconds : 13591 ms
+foo2 read time in milliseconds : 9748 ms
+foo2 write time in milliseconds : 13334 ms
+foo2 read time in milliseconds : 9032 ms
+foo2 write time in milliseconds : 13907 ms
+foo2 read time in milliseconds : 12400 ms
+foo2 write time in milliseconds : 13426 ms
+foo2 read time in milliseconds : 12380 ms
+foo2 write time in milliseconds : 13792 ms
+foo2 read time in milliseconds : 12080 ms
+
+foo2 write time in milliseconds : 8649 ms
+foo2 read time in milliseconds : 8493 ms
+foo2 write time in milliseconds : 8624 ms
+foo2 read time in milliseconds : 8369 ms
+foo2 write time in milliseconds : 9717 ms
+foo2 read time in milliseconds : 12097 ms
+foo2 write time in milliseconds : 8816 ms
+foo2 read time in milliseconds : 8705 ms
+foo2 write time in milliseconds : 8308 ms
+foo2 read time in milliseconds : 5889 ms
+
+foo2 write time in milliseconds : 5837 ms
+foo2 read time in milliseconds : 6171 ms
+foo2 write time in milliseconds : 5751 ms
+foo2 read time in milliseconds : 6099 ms
+foo2 write time in milliseconds : 8242 ms
+foo2 read time in milliseconds : 10367 ms
+foo2 write time in milliseconds : 8171 ms
+foo2 read time in milliseconds : 10739 ms
+foo2 write time in milliseconds : 7034 ms
+foo2 read time in milliseconds : 8307 ms
+
+Exp2
+
+foo2 write time in milliseconds : 56139 ms
+foo2 read time in milliseconds : 26723 ms
+foo2 write time in milliseconds : 56071 ms
+foo2 read time in milliseconds : 25984 ms
+foo2 write time in milliseconds : 55966 ms
+foo2 read time in milliseconds : 25940 ms
+foo2 write time in milliseconds : 55950 ms
+foo2 read time in milliseconds : 25796 ms
+foo2 write time in milliseconds : 56072 ms
+foo2 read time in milliseconds : 25924 ms
+
+foo2 write time in milliseconds : 33747 ms
+foo2 read time in milliseconds : 14744 ms
+foo2 write time in milliseconds : 33838 ms
+foo2 read time in milliseconds : 14840 ms
+foo2 write time in milliseconds : 33771 ms
+foo2 read time in milliseconds : 14828 ms
+foo2 write time in milliseconds : 33793 ms
+foo2 read time in milliseconds : 14728 ms
+foo2 write time in milliseconds : 33882 ms
+foo2 read time in milliseconds : 14716 ms
+
+foo2 write time in milliseconds : 20751 ms
+foo2 read time in milliseconds : 9992 ms
+foo2 write time in milliseconds : 20824 ms
+foo2 read time in milliseconds : 9556 ms
+foo2 write time in milliseconds : 20800 ms
+foo2 read time in milliseconds : 9661 ms
+foo2 write time in milliseconds : 20957 ms
+foo2 read time in milliseconds : 9316 ms
+foo2 write time in milliseconds : 20901 ms
+foo2 read time in milliseconds : 9652 ms
+
+foo2 write time in milliseconds : 16968 ms
+foo2 read time in milliseconds : 7573 ms
+foo2 write time in milliseconds : 17012 ms
+foo2 read time in milliseconds : 7621 ms
+foo2 write time in milliseconds : 16919 ms
+foo2 read time in milliseconds : 7477 ms
+foo2 write time in milliseconds : 17047 ms
+foo2 read time in milliseconds : 7561 ms
+foo2 write time in milliseconds : 17026 ms
+foo2 read time in milliseconds : 7897 ms
+
+foo2 write time in milliseconds : 15135 ms
+foo2 read time in milliseconds : 6794 ms
+foo2 write time in milliseconds : 14790 ms
+foo2 read time in milliseconds : 8399 ms
+foo2 write time in milliseconds : 14934 ms
+foo2 read time in milliseconds : 6731 ms
+foo2 write time in milliseconds : 14767 ms
+foo2 read time in milliseconds : 7130 ms
+foo2 write time in milliseconds : 14905 ms
+foo2 read time in milliseconds : 8271 ms
+
+Exp3
+
+foo write time in milliseconds : 52382 ms
+foo read time in milliseconds : 25215 ms
+foo write time in milliseconds : 52494 ms
+foo read time in milliseconds : 25103 ms
+foo write time in milliseconds : 52502 ms
+foo read time in milliseconds : 25215 ms
+foo write time in milliseconds : 52654 ms
+foo read time in milliseconds : 25139 ms
+foo write time in milliseconds : 52531 ms
+foo read time in milliseconds : 25239 ms
+
+foo write time in milliseconds : 26611 ms
+foo read time in milliseconds : 15078 ms
+foo write time in milliseconds : 26970 ms
+foo read time in milliseconds : 14910 ms
+foo write time in milliseconds : 26856 ms
+foo read time in milliseconds : 14982 ms
+foo write time in milliseconds : 26686 ms
+foo read time in milliseconds : 14670 ms
+foo write time in milliseconds : 26497 ms
+foo read time in milliseconds : 14870 ms
+
+foo write time in milliseconds : 13885 ms
+foo read time in milliseconds : 10189 ms
+foo write time in milliseconds : 13812 ms
+foo read time in milliseconds : 9648 ms
+foo write time in milliseconds : 13652 ms
+foo read time in milliseconds : 10173 ms
+foo write time in milliseconds : 13672 ms
+foo read time in milliseconds : 10153 ms
+foo write time in milliseconds : 13736 ms
+foo read time in milliseconds : 9597 ms
+
+foo write time in milliseconds : 9985 ms
+foo read time in milliseconds : 7363 ms
+foo write time in milliseconds : 10369 ms
+foo read time in milliseconds : 8627 ms
+foo write time in milliseconds : 10307 ms
+foo read time in milliseconds : 8223 ms
+foo write time in milliseconds : 10273 ms
+foo read time in milliseconds : 8400 ms
+foo write time in milliseconds : 10298 ms
+foo read time in milliseconds : 7583 ms
+
+foo write time in milliseconds : 8202 ms
+foo read time in milliseconds : 5604 ms
+foo write time in milliseconds : 8438 ms
+foo read time in milliseconds : 6500 ms
+foo write time in milliseconds : 8489 ms
+foo read time in milliseconds : 6415 ms
+foo write time in milliseconds : 8600 ms
+foo read time in milliseconds : 6743 ms
+foo write time in milliseconds : 8559 ms
+foo read time in milliseconds : 6027 ms
