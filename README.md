@@ -1,3 +1,5 @@
 Abstract:
 
 We designed, implemented, and tested Reduct, a deduplicated distributed file system. Our motivation for designing a new system stemmed from an observation of numerous shortcomings in the existing distributed file systems, including excessive metadata and the possibility of data corruption due to hash collisions. Our solution is closely modeled after widely used distributed file systems such as the Google File System and HDFS (Hadoop Distributed File System), yet internally supports subfile level deduplication in a way that avoids the aforementioned issues.   Several experiments were conducted to test the performance of Reduct in terms of deduplication ratio, read, and write speeds. The primary focus was to measure not only the effectiveness of deduplication, but also its impact on the throughput of the system. Our experimental results were positive, despite the various limitations of the project due to time constraint. Future research would require implementing and testing a full-scale system that is far more reliable and efficient. 
+
+See README_PWW.md for more information.
